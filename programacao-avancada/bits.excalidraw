@@ -1,0 +1,259 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "jZROJ-8s28k8obMxOTeMp",
+      "type": "text",
+      "x": 525.3422154017867,
+      "y": -743.4506266760445,
+      "width": 747.5906372070312,
+      "height": 855,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1u",
+      "roundness": null,
+      "seed": 393066487,
+      "version": 754,
+      "versionNonce": 1982861337,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1760617157579,
+      "link": null,
+      "locked": false,
+      "text": "1 byte = 8 bits\n\nint -> 4 bytes\n\n4 * 8 = 32bits\n\nelevar 2 na qtde de bits para saber\no número máximo, e subtrair 1 do \nresultado para contabilizarmos o \nvalor causa do 0\n\nse não tiver polaridade\n(2³²-1) = 0 <-> 4.294.967.295\n\nse tiver polaridade\n(2⁽³²⁻¹⁾-1) = (2³¹-1) = 2.147.483.648\n    ou seja\n-2.147.483.648 <-> -1\n0 <-> 2.147.483.647",
+      "fontSize": 36,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "1 byte = 8 bits\n\nint -> 4 bytes\n\n4 * 8 = 32bits\n\nelevar 2 na qtde de bits para saber\no número máximo, e subtrair 1 do \nresultado para contabilizarmos o \nvalor causa do 0\n\nse não tiver polaridade\n(2³²-1) = 0 <-> 4.294.967.295\n\nse tiver polaridade\n(2⁽³²⁻¹⁾-1) = (2³¹-1) = 2.147.483.648\n    ou seja\n-2.147.483.648 <-> -1\n0 <-> 2.147.483.647",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "Ia3emC47yD1MJpzqEiFit",
+      "type": "arrow",
+      "x": 673.6039341517867,
+      "y": -483.2982829260445,
+      "width": 602.3906250000002,
+      "height": 200.23100783445523,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1w",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1817415447,
+      "version": 1325,
+      "versionNonce": 1183551767,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1760617149814,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          46.6171875,
+          -30.6484375
+        ],
+        [
+          353.5390625,
+          -51.625
+        ],
+        [
+          414.1640625,
+          -189.1875
+        ],
+        [
+          602.3906250000002,
+          -200.23100783445523
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": {
+        "elementId": "DTpGboA81tuqB0syf0anO",
+        "focus": 0.2465262974466695,
+        "gap": 10.5625
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false,
+      "fixedSegments": null,
+      "startIsSpecial": null,
+      "endIsSpecial": null
+    },
+    {
+      "id": "DTpGboA81tuqB0syf0anO",
+      "type": "text",
+      "x": 1286.5570591517867,
+      "y": -728.8060954260445,
+      "width": 384.99951171875,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1y",
+      "roundness": null,
+      "seed": 1036570679,
+      "version": 261,
+      "versionNonce": 360032247,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "Ia3emC47yD1MJpzqEiFit",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1760617149813,
+      "link": null,
+      "locked": false,
+      "text": "usamos 2 como referencia por causa \nda possibilidade de valores.\n\n0 ou 1",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "usamos 2 como referencia por causa \nda possibilidade de valores.\n\n0 ou 1",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "IqGldoV5QGSOKn7DG2kaV",
+      "type": "arrow",
+      "x": 912.3242032490091,
+      "y": -91.0800754607667,
+      "width": 497.265625,
+      "height": 150.1611328125,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b1z",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 262788471,
+      "version": 259,
+      "versionNonce": 1351859033,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1760617151604,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          237.79296875,
+          -14.9169921875
+        ],
+        [
+          268.720703125,
+          -150.1611328125
+        ],
+        [
+          497.265625,
+          -143.1450509734351
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": null,
+      "endBinding": {
+        "elementId": "2O-pb3RIXMQ8Hgowgfel0",
+        "focus": -0.017347735138456034,
+        "gap": 8.0859375
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "2O-pb3RIXMQ8Hgowgfel0",
+      "type": "text",
+      "x": 1417.675765749009,
+      "y": -289.4003879607667,
+      "width": 406.9994201660156,
+      "height": 125,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b20",
+      "roundness": null,
+      "seed": 1110398231,
+      "version": 184,
+      "versionNonce": 926315129,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "IqGldoV5QGSOKn7DG2kaV",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1760617151603,
+      "link": null,
+      "locked": false,
+      "text": "Só é possivel alocar a metade\ndo valor de quanto não tem polaridade\npois 1bit fica para o sinal\n    ou seja:\n32bits - 1bit(sinal) = 31bits",
+      "fontSize": 20,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Só é possivel alocar a metade\ndo valor de quanto não tem polaridade\npois 1bit fica para o sinal\n    ou seja:\n32bits - 1bit(sinal) = 31bits",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff",
+    "lockedMultiSelections": {}
+  },
+  "files": {}
+}

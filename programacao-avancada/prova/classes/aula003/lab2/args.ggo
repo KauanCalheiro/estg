@@ -1,0 +1,16 @@
+package "Example of .ggo file"
+version "1.0"
+purpose "Simple example (optional)"
+description "description needed (optional)"
+versiontext "versiontext needed (optional)"
+
+#----------------------------
+# independent options
+#----------------------------
+# Mandatory option
+
+# option "long-name-of-option" short_name_of_option "Description of option" type_of_option [typestr="type_string"] [default=value] [required|optional]
+
+option "file" f "File to be read"  string typestr="filename" required
+
+

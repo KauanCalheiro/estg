@@ -1,0 +1,2 @@
+This folder will contain folder(s) named lab${N}, where N is the lab number.
+Each lab folder will contain a main.c file, which will have the code.

@@ -1,0 +1,3 @@
+-- ALTER USER <username> IDENTIFIED BY <new_password>
+
+ALTER USER SAD2025224922 IDENTIFIED BY my_password;
