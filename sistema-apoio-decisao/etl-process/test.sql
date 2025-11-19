@@ -15,11 +15,13 @@ SELECT * FROM T_TEL_ERROR;
 
 select * from t_clean_customers;
 SELECT * FROM t_clean_products;
+SELECT * FROM t_data_products;
 SELECT * FROM t_clean_promotions;
 SELECT * FROM t_clean_stores;
 SELECT * FROM t_clean_celsius;
 SELECT * FROM t_clean_linesofsale;
 
+SELECT * FROM t_ext_dates;
 
 INSERT INTO t_tel_screen (
    screen_key,
